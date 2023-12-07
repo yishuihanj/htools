@@ -20,5 +20,5 @@ deps:
 	rm -rf vendor && tar -xzf vendor.tar.gz
 
 
-tools: deps
+bin: deps
 	$(BUILD_CMD) $(BUILD_FLAGS)/htools ./cmd
